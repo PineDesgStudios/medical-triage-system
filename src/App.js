@@ -19,7 +19,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/medical-triage-system">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route 
